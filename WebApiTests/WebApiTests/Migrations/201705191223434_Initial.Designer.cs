@@ -13,7 +13,7 @@ namespace WebApiTests.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201705190956144_Initial"; }
+            get { return "201705191223434_Initial"; }
         }
         
         string IMigrationMetadata.Source
