@@ -23,6 +23,6 @@ namespace WebApiTests.Models
 
         public System.Data.Entity.DbSet<WebApiTests.Models.Author> Authors { get; set; }
 
-        public System.Data.Entity.DbSet<WebApiTests.Models.Book> Books { get; set; }
+        public System.Data.Entity.DbSet<WebApiTests.Models.BookDTO> Books { get; set; }
     }
 }
