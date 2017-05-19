@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace WebApiTests.Models
 {
-    public class BookDTO
+    public class Book
     {
         public int Id { get; set; }
         [Required]
