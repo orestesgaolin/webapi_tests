@@ -17,6 +17,8 @@ namespace WebApiTests.Models
     
         public WebApiTestsContext() : base("name=WebApiTestsContext")
         {
+            //trace the SQL requests
+            this.Database.Log = s => System.Diagnostics.Debug.WriteLine(s);
         }
 
         public System.Data.Entity.DbSet<WebApiTests.Models.Author> Authors { get; set; }

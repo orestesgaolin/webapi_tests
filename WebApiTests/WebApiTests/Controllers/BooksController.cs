@@ -20,7 +20,7 @@ namespace WebApiTests.Controllers
         // GET: api/Books
         public IQueryable<Book> GetBooks()
         {
-            return db.Books;
+            return db.Books.Include(b => b.Author); // eager loading
         }
 
         // GET: api/Books/5
